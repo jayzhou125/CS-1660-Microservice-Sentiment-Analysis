@@ -18,7 +18,7 @@ Original Repository: https://github.com/rinormaloku/k8s-mastery
 # Command to use:
 After setting up the environment:
 
-'''npm start'''
+```npm start```
 
 to run the React Application. 
 Go to localhost:3000 to see the actual applicaiton. 
