@@ -79,7 +79,7 @@ Then push it to the Docker Hub so anyone can use:
 docker push $DOCKER_USER_ID/sentiment-analysis-frontend
 ```
  
-## Do the same thing for the other two applications, And you will have your all container microservices. 
+## Do the same thing for the other two applications, And you will have your all microservices ready. 
 
 
 
