@@ -110,7 +110,8 @@ docker inspect -f container_name_or_id
 docker run -d -p 80:80 jiz156/sentiment-analysis-frontend
 ```
 
-## We are done. Open your browser on ```localhost:80``` to try it out!
+## We are done. 
+## Open your browser on ```localhost:80``` to try it out!
 
 
 
