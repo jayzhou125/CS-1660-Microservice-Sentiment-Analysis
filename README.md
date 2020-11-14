@@ -61,6 +61,7 @@ python sentiment_analysis.py
 BUILD THE FRONT END USING DOCKER
 1. start with the base Nginxx image
 2. Copy the sa-frontend/build directory to the containers nginx/html directory.
+
 Converted into a Dockerfile it looks like:
 
 ```
