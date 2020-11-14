@@ -84,14 +84,14 @@ docker push $DOCKER_USER_ID/sentiment-analysis-frontend
 
 ## Since I already did all these，you can try and pull the images that I created just to see how it works. 
 ## To Demo:
-#####1. run the sa-logic on port number 5000:
+##### 1. run the sa-logic on port number 5000:
 
 ```
 docker run -d -p 5000:5000 jiz156/sentiment-analysis-logic
 ```
 
 
-#####2. run the sa-web-app on port number 8080:
+##### 2. run the sa-web-app on port number 8080:
 **Make sure you change the URL to your container_IP.**
 If you are not sure what the container IP is, use the following command: 
 ```
@@ -108,7 +108,7 @@ docker inspect -f container_name_or_id
 ```
 
 
-#####3. lastly, run the sa-frontend use at port 80:
+##### 3. lastly, run the sa-frontend use at port 80:
 
 ```
 docker run -d -p 80:80 jiz156/sentiment-analysis-frontend
