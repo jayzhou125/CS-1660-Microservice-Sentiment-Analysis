@@ -1,12 +1,13 @@
 # CS-1660-Microservice-Sentiment-Analysis Optional Lab
 
+The optional lab is for the CS-1660 extra credit. 
+
 This practice is meant to get familiar with Microservices using Docker. 
 
 The Sentiment_Analysis application is credited to **Rinor Maloku**.
 
 Original Repository: https://github.com/rinormaloku/k8s-mastery
 
-# Environment Set-UP
 ## There's total three application to use for this practice. 
 
 ##### 1. sa-fronted
@@ -32,7 +33,7 @@ Will generate the static files for the front end.
 Move the static files in ```build/``` folder to the ```[your_nginx_installation_dir]/html``` 
 That way the **Nginx** server will serve our customed frontend code. 
 
-# For the web-app, you need to set up JDK8 and Maven. 
+## For the web-app, you need to set up JDK8 and Maven. 
 After setting up the environment:
 Remember to set up the property ```sa.logic.api.url```to your desired localhost port. 
 Run the web-app as follow:
@@ -42,12 +43,16 @@ java -jar sentiment-analysis-web-0.0.1-SNAPSHOT.jar
      --sa.logic.api.url=WHAT.IS.THE.SA.LOGIC.API.URL
 ```
      
-# For the Logic, make sure that you have Python installed. 
+## For the Logic, make sure that you have Python installed. 
 Run the sa-logic as follow：
-```python sentiment_analysis.py
+
+```
+python sentiment_analysis.py
 ```
 
-# At this point, you should be able to run the application by running all three commands. 
+## At this point, you should be able to run the application by running all three commands. 
+
+
 # From this point on, we will begin build our microsevices using Docker.
 
 BUILD THE FRONT END USING DOCKER
