@@ -79,8 +79,10 @@ Then push it to the Docker Hub so anyone can use:
 docker push $DOCKER_USER_ID/sentiment-analysis-frontend
 ```
  
-## Do the same thing for the other two applications 
-## And you will have your all container images
+## Do the same thing for the other two applications, And you will have your all container microservices. 
+
+
+
 
 ## Since I already did all these，you can try and pull the images that I created just to see how it works. 
 ## To Demo:
