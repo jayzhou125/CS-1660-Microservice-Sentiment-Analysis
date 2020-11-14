@@ -2,7 +2,7 @@
 
 This practice is meant to get familiar with Microservices using Docker. 
 
-The Sentiment_Analysis application is credited to **Rinor Maloku** 
+The Sentiment_Analysis application is credited to **Rinor Maloku.
 
 Original Repository: https://github.com/rinormaloku/k8s-mastery
 
